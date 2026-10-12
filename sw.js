@@ -1,5 +1,5 @@
 // EdgeJournal service worker: offline app shell + Android "Share to EdgeJournal" inbox.
-const VERSION = '202610122212';
+const VERSION = '202610122227';
 const SHELL = `ej-shell-${VERSION}`;
 const INBOX = 'ej-share-inbox';
 const FILES = ['./', './index.html', './assets/app.js', './assets/app.css', './manifest.webmanifest', './icons/icon-192.png', './icons/icon-512.png'];
