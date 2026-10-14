@@ -1,0 +1,23 @@
+{
+  "name": "edge-journal",
+  "private": true,
+  "version": "1.0.0",
+  "description": "EdgeJournal - offline-first prop-firm trading journal (PWA) with free cloud sync",
+  "type": "module",
+  "scripts": {
+    "build": "node build.mjs",
+    "dev": "node build.mjs --watch",
+    "serve": "node serve.mjs"
+  },
+  "dependencies": {
+    "d3-dsv": "^3.0.1",
+    "jszip": "^3.10.1",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "react-icons": "^5.5.0"
+  },
+  "devDependencies": {
+    "esbuild": "^0.28.0",
+    "tailwindcss": "^4.1.0"
+  }
+}
